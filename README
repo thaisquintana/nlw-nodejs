@@ -1,0 +1,16 @@
+//To see containers ups
+//docker ps
+
+//To up the config on docker-compose file
+//docker compose up -d
+
+//o nome do model deve vir em letra maiuscula mas é possível alterar o nome da tabela para minúscula, dentro do model você deve adicionar:
+// @@map("poll")
+
+// npx prisma migrate dev
+// comando para dizer o que foi feito no arquivo schema
+// no caso adicionado foi criar uma tabela create polls
+
+
+// npx prisma studio
+// ele abre uma interface no navegador as tabelas registradas no banco de dados.
